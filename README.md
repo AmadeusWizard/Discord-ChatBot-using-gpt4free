@@ -6,6 +6,7 @@
 > [!IMPORTANT]
 >
 > **Major Update (2024/03):**
+> - Due to instability issues with GPT-4 model, we have defaulted back to GPT-3.5-turbo
 > - Gemini-Pro and GPT-4 now supported for free
 > - See README for details and dependency updates.
 
@@ -63,12 +64,14 @@
 ---
 ## Image Generation
 
-![image](https://github.com/Zero6992/chatGPT-discord-bot/assets/89479282/e20533a4-a563-4fcd-8ec5-d5beb20ae72a)
+<img src="https://i.imgur.com/Eo1ZzKk.png" width="300" alt="image">
 
-### OpenAI DALLE3 Image Generation
-1. Go to https://chat.openai.com/api/auth/session
+### OpenAI DALLE3 Image Generation (Requires a GPT Plus account)
+1. Log into your openai account
 
-2. Copy the value for `access_token` and paste it into `.env` under `OPENAI_TOKEN`
+2. Go to https://chat.openai.com/api/auth/session
+
+3. Copy the value for `access_token` and paste it into `.env` under `OPENAI_TOKEN`
 
 ### Microsoft Bing Image Generation
 1. Go to https://www.bing.com/chat and log in
